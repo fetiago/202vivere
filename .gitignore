@@ -1,0 +1,66 @@
+# Originais e cópias de preparação: preservar no disco, fora do Git
+/99_originals/
+/finalizadas-para-o-site/
+
+# Capturas, comparações de fotos e resultados de auditorias locais
+/.photo-review/
+/.design-review/
+/playwright-report/
+/test-results/
+
+# Documentos de trabalho internos: manter locais, fora do repositório público
+/AGENTS
+/MOTIVATION
+/ANALISE-*.md
+/INSTRUCOES-*.md
+/CONTEUDO-*.md
+/PERGUNTAS-*.md
+
+# Imagens auxiliares que não são usadas pelo site publicado
+/assets/facade*.webp
+/assets/mapa-localizacao.webp
+/assets/planta-pavimento-tipo.webp
+
+# Recortes intermediários das plantas, na raiz do projeto
+/planta-cobertura-*.png
+
+# Versões substituídas e arquivos de recuperação, em qualquer pasta
+*-old.*
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Saída gerada para publicação e dependências locais
+/_site/
+/dist/
+/build/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+*.log
+
+# Credenciais e configurações pessoais
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
